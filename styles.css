@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+ 
+  background-color: rgb(255, 43, 43)
+  
+}
+
+#war-header {
+    display: flex;
+    justify-content: center;
+    opacity: .8;
+    height: 5rem;
+    padding-top: 1rem;
+  }
+
+
+
+  button {
+    position: relative;
+    background-color:rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: max-content;
+    color: whitesmoke;
+    font-size: 18px;
+    justify-self: center;
+  }
+
+  .remove {
+    position: relative;
+    background: transparent;
+    height: auto;
+    width: auto;
+    justify-self: center;
+  }
+  
+  .container {
+    padding: 1rem;
+    width: 225px;
+    height: 400px;
+    display: block;
+    opacity: .8;
+    margin: auto
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .card {
+    text-align: center;
+    padding: 5px;
+  }
+
+  .warrior-avatar{
+    width: 80px; 
+    height: 100px;
+    border: 5px ridge rgb(0, 0, 0);
+  }
+  
+ 
+
+  .unit-container {
+    border: 5px ridge rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    top:70px;
+    right: 25px;
+    overflow: scroll;
+    height: auto;
+    max-height: 30em;
+    display: none;
+    justify-content: center
+  }
+
+  #welcome{
+    position:absolute;
+    top:200px;
+    left: 70px;
+    font-size: 18px;
+    font-weight: bold
+  }
+
+  #unit-btn{
+    position:absolute;
+    top:70px;
+    right: 50px;
+    background-color: rgb(255, 255, 255)
+  }
+
+  .dday {
+    position: relative;
+    background-color:rgb(255, 255, 255);
+    border: ridge rgb(255, 255, 255);
+    height: auto;
+    width: max-content;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+  }
+
+  #logout{
+    position:bottom;
+    top:70px;
+    left: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .options{
+    display: flex;
+    
+    align-items: right;
+  }
